@@ -1,3 +1,163 @@
 # Hvordan finne ut av hva man kan snakke om?
 
 Av Trønderen fra Fredrikstad, Dag Frode Solberg
+
+<div id="warning">
+        <h1>For å bruke CFP appen må du legge fra deg Janteloven</h1>
+        <h3>Jeg bekrefter at</h3>
+        <ul>
+            <li>Jeg tror jeg er noe.</li>
+            <li>Jeg tror jeg er like meget som dere.</li>
+            <li>Jeg tror jeg klokere enn dere (på enkelte ting).</li>
+            <li>Jeg tror jeg er bedre enn dere (på enkelte ting).</li>
+            <li>Jeg tror jeg vet mer enn dere (om enkelte ting).</li>
+            <li>Jeg tror jeg er mere enn dere (på enkelte områder).</li>
+            <li>Jeg tror jeg duger til noe.</li>
+            <li>Jeg tror dere bryr dere om meg og hva jeg har å si.</li>
+            <li>Jeg tror jeg kan lære dere noe</li>
+        </ul>
+        <button onclick="showWorkshop()" type="button">Bekreft</button>
+    </div>
+    <div id="workshop">
+        <div>
+            <label>Jeg ønsker å dele
+                <select id="topic" onchange="update()">
+                    <option value="" selected disabled>--Please choose an option--</option>
+                    <option value="utvikle">noe jeg kan godt, men vil bli enda bedre på</option>
+                    <option value="nytt">en teknikk, et sårk, eller et verktøy jeg har hørt om men ikke brukt enda
+                    </option>
+                    <option value="arbeidsflyt">en arbeidsflyt jeg bruker og liker fodt</option>
+                    <option value="anerki">noe alle tar for gitt men som ikke har blitt utfordret på en stund</option>
+                    <option value="hobbie">en erfaring fra en hobbie jeg har som jeg synes er nyttig på jobben</option>
+                    <option value="lært">noe jeg skulle ønske jeg viste for et år siden</option>
+                    <option value="erfaring">en erfaring jeg har gjort med</option>
+                </select>
+            </label>
+            <label>
+                <select id="format" onchange="update()">
+                    <option value="" selected disabled>--Please choose an option--</option>
+                    <option value="artikkel">som en artikkel</option>
+                    <option value="foredrag">som et foredrag</option>
+                    <option value="workshop">som en workshop</option>
+                    <option value="podcast">i et podcast</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <h2>Steder du kan dele</h2>
+            <div class="format" data-topic="" data-format="artikkel">
+                Bekk julekalender
+            </div>
+            <div class="format" data-topic="" data-format="artikkel">
+                Bekk blogg
+            </div>
+
+            <div class="format" data-topic="" data-format="foredrag">
+                faggruppe
+            </div>
+            <div class="format" data-topic="" data-format="foredrag">
+                avdelingsmøte
+            </div>
+            <div class="format" data-topic="" data-format="foredrag">
+                fagdag
+            </div>
+            <div class="format" data-topic="" data-format="foredrag">
+                javazone - beskrivelse av javazone - liste med call for papers
+            </div>
+            <div class="format" data-topic="" data-format="foredrag workshop">
+                tdc
+            </div>
+            <div class="format" data-topic="" data-format="foredrag workshop">
+                ndc
+            </div>
+            <div class="format" data-topic="" data-format="workshop">
+                faggruppe
+            </div>
+            <div class="format" data-topic="" data-format="workshop">
+                sommerjobber / oppstart
+            </div>
+            <div class="format" data-topic="" data-format="podcast">
+                bekk open
+            </div>
+
+        </div>
+        <div>
+            <h2>Tips til det du tenker å dele</h2>
+            <div class="tips" data-topic="utvikle" data-format="lært">
+                <iframe src="https://player.vimeo.com/video/364736489?color=ff9933&portrait=0" width="640" height="360"
+                    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/364736489">Kotlinify existing Java classes</a> from <a
+                        href="https://vimeo.com/javazone">JavaZone</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </div>
+            <div class="tips" data-topic="nytt" data-format="">
+                <iframe src="https://player.vimeo.com/video/364737687?color=ff9933&portrait=0" width="640" height="360"
+                    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/364737687">The worlds worst APIs - and a few of the good ones</a> from <a
+                        href="https://vimeo.com/javazone">JavaZone</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </div>
+            <div class="tips" data-topic="arbeidsflyt" data-format="">
+                <iframe src="https://player.vimeo.com/video/364737117?color=ff9933&portrait=0" width="640" height="360"
+                    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/364737117">The Java Module System in practice</a> from <a
+                        href="https://vimeo.com/javazone">JavaZone</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </div>
+            <div class="tips" data-topic="lært" data-format="">
+                <iframe src="https://player.vimeo.com/video/364738775?color=ff9933&portrait=0" width="640" height="360"
+                    frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/364738775">Highscores - A Brief History of Computer Music</a> from <a
+                        href="https://vimeo.com/javazone">JavaZone</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const warning = document.getElementById("warning")
+        const workshop = document.getElementById("workshop")
+        workshop.style.display = "none";
+
+        function showWorkshop() {
+            workshop.style.display = "block";
+            warning.style.display = "none";
+        }
+
+
+
+
+        const topicSelect = document.getElementById("topic")
+        const formatSelect = document.getElementById("format")
+        const formats = document.getElementsByClassName("format")
+        const tips = document.getElementsByClassName("tips")
+
+        function update() {
+            console.log("update")
+
+            var selectedTopic = topicSelect.options[topicSelect.selectedIndex].value;
+            var selectedFormat = formatSelect.options[formatSelect.selectedIndex].value;
+            for (var i = 0; i < formats.length; i++) {
+                var format = formats[i];
+                var formatOptions = format.getAttribute('data-format').split(' ');
+                var topicOptions = format.getAttribute('data-topic').split(' ');
+                if (formatOptions.includes(selectedFormat) || topicOptions.includes(selectedTopic)) {
+                    format.style.display = 'block'
+                } else {
+                    format.style.display = 'none'
+                }
+            };
+
+            for (var i = 0; i < tips.length; i++) {
+
+                var tip = tips[i];
+                var formatOptions = tip.getAttribute('data-format').split(' ');
+                var topicOptions = tip.getAttribute('data-topic').split(' ');
+                console.log(formatOptions, topicOptions, selectedFormat, selectedTopic)
+
+                if (formatOptions.includes(selectedFormat) || topicOptions.includes(selectedTopic)) {
+                    tip.style.display = 'block'
+                    console.log(tip.style.display)
+                } else {
+                    tip.style.display = 'none'
+                    console.log(tip.style.display)
+
+                }
+            };
+        }
+    </script>
