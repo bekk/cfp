@@ -55,98 +55,27 @@
                 <div>
                     <label>Jeg ønsker å dele
                         <select id="topic" onchange="update()">
-                            <option value="" selected disabled>--Please choose an option--</option>
-                            <option value="utvikle">noe jeg kan godt, men vil bli enda bedre på</option>
-                            <option value="nytt">en teknikk, et sårk, eller et verktøy jeg har hørt om men ikke brukt
-                                enda
-                            </option>
-                            <option value="arbeidsflyt">en arbeidsflyt jeg bruker og liker fodt</option>
-                            <option value="anerki">noe alle tar for gitt men som ikke har blitt utfordret på en stund
-                            </option>
-                            <option value="hobbie">en erfaring fra en hobbie jeg har som jeg synes er nyttig på jobben
-                            </option>
-                            <option value="lært">noe jeg skulle ønske jeg viste for et år siden</option>
-                            <option value="erfaring">en erfaring jeg har gjort med</option>
+                            <option value="none" selected> --Please choose an option-- </option>
+
                         </select>
                     </label>
                     <label>
                         <select id="format" onchange="update()">
-                            <option value="" selected disabled>--Please choose an option--</option>
-                            <option value="artikkel">som en artikkel</option>
-                            <option value="foredrag">som et foredrag</option>
-                            <option value="workshop">som en workshop</option>
-                            <option value="podcast">i et podcast</option>
+                            <option value="none" selected>--Please choose an option--</option>
+
                         </select>
                     </label>
                 </div>
                 <div>
                     <h2>Steder du kan dele</h2>
-                    <div class="format" data-topic="" data-format="artikkel">
-                        Bekk julekalender
-                    </div>
-                    <div class="format" data-topic="" data-format="artikkel">
-                        Bekk blogg
-                    </div>
+                    <div id="arena-container"></div>
 
-                    <div class="format" data-topic="" data-format="foredrag">
-                        faggruppe
-                    </div>
-                    <div class="format" data-topic="" data-format="foredrag">
-                        avdelingsmøte
-                    </div>
-                    <div class="format" data-topic="" data-format="foredrag">
-                        fagdag
-                    </div>
-                    <div class="format" data-topic="" data-format="foredrag">
-                        javazone - beskrivelse av javazone - liste med call for papers
-                    </div>
-                    <div class="format" data-topic="" data-format="foredrag workshop">
-                        tdc
-                    </div>
-                    <div class="format" data-topic="" data-format="foredrag workshop">
-                        ndc
-                    </div>
-                    <div class="format" data-topic="" data-format="workshop">
-                        faggruppe
-                    </div>
-                    <div class="format" data-topic="" data-format="workshop">
-                        sommerjobber / oppstart
-                    </div>
-                    <div class="format" data-topic="" data-format="podcast">
-                        bekk open
-                    </div>
 
                 </div>
                 <div>
                     <h2>Tips til det du tenker å dele</h2>
-                    <div class="tips" data-topic="utvikle" data-format="lært">
-                        <iframe src="https://player.vimeo.com/video/364736489?color=ff9933&portrait=0" width="640"
-                            height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                        <p><a href="https://vimeo.com/364736489">Kotlinify existing Java classes</a> from <a
-                                href="https://vimeo.com/javazone">JavaZone</a> on <a href="https://vimeo.com">Vimeo</a>.
-                        </p>
-                    </div>
-                    <div class="tips" data-topic="nytt" data-format="">
-                        <iframe src="https://player.vimeo.com/video/364737687?color=ff9933&portrait=0" width="640"
-                            height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                        <p><a href="https://vimeo.com/364737687">The worlds worst APIs - and a few of the good ones</a>
-                            from <a href="https://vimeo.com/javazone">JavaZone</a> on <a
-                                href="https://vimeo.com">Vimeo</a>.</p>
-                    </div>
-                    <div class="tips" data-topic="arbeidsflyt" data-format="">
-                        <iframe src="https://player.vimeo.com/video/364737117?color=ff9933&portrait=0" width="640"
-                            height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                        <p><a href="https://vimeo.com/364737117">The Java Module System in practice</a> from <a
-                                href="https://vimeo.com/javazone">JavaZone</a> on <a href="https://vimeo.com">Vimeo</a>.
-                        </p>
-                    </div>
-                    <div class="tips" data-topic="lært" data-format="">
-                        <iframe src="https://player.vimeo.com/video/364738775?color=ff9933&portrait=0" width="640"
-                            height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                        <p><a href="https://vimeo.com/364738775">Highscores - A Brief History of Computer Music</a> from
-                            <a href="https://vimeo.com/javazone">JavaZone</a> on <a href="https://vimeo.com">Vimeo</a>.
-                        </p>
-                    </div>
+                    <div id="tips-container"></div>
+
                 </div>
             </div>
         </div>
@@ -161,47 +90,133 @@
             warning.style.display = "none";
         }
 
+        showWorkshop(); // Todo remove
+
+
 
 
 
         const topicSelect = document.getElementById("topic")
         const formatSelect = document.getElementById("format")
-        const formats = document.getElementsByClassName("format")
+        const arenas = document.getElementsByClassName("arena")
         const tips = document.getElementsByClassName("tips")
+        const arenaContainer = document.getElementById("arena-container")
+        const tipsContainer = document.getElementById("tips-container")
 
         function update() {
-            console.log("update")
 
             var selectedTopic = topicSelect.options[topicSelect.selectedIndex].value;
             var selectedFormat = formatSelect.options[formatSelect.selectedIndex].value;
-            for (var i = 0; i < formats.length; i++) {
-                var format = formats[i];
-                var formatOptions = format.getAttribute('data-format').split(' ');
-                var topicOptions = format.getAttribute('data-topic').split(' ');
-                if (formatOptions.includes(selectedFormat) || topicOptions.includes(selectedTopic)) {
-                    format.style.display = 'block'
+            if (selectedTopic === "none" && selectedFormat === "none") {
+                selectedTopic = ""
+                selectedFormat = ""
+            }
+            for (var i = 0; i < arenas.length; i++) {
+                var arena = arenas[i];
+                var formatOptions = arena.getAttribute('data-format');
+                var topicOptions = arena.getAttribute('data-topic');
+                if (formatOptions.indexOf(selectedFormat) > -1 || topicOptions.indexOf(selectedTopic) > -1) {
+                    arena.style.display = 'block'
                 } else {
-                    format.style.display = 'none'
+                    arena.style.display = 'none'
                 }
             };
 
             for (var i = 0; i < tips.length; i++) {
 
                 var tip = tips[i];
-                var formatOptions = tip.getAttribute('data-format').split(' ');
-                var topicOptions = tip.getAttribute('data-topic').split(' ');
-                console.log(formatOptions, topicOptions, selectedFormat, selectedTopic)
+                var formatOptions = tip.getAttribute('data-format');
+                var topicOptions = tip.getAttribute('data-topic');
 
-                if (formatOptions.includes(selectedFormat) || topicOptions.includes(selectedTopic)) {
+                if (formatOptions.indexOf(selectedFormat) > -1 || topicOptions.indexOf(selectedTopic) > -1) {
                     tip.style.display = 'block'
-                    console.log(tip.style.display)
                 } else {
                     tip.style.display = 'none'
-                    console.log(tip.style.display)
-
                 }
             };
         }
+
+
+        function addSelectOption(select, value, name) {
+            var opt = document.createElement('option');
+            opt.appendChild(document.createTextNode(name))
+            opt.value = value
+            select.appendChild(opt)
+        }
+
+        function addTopicSelectOption(topic) {
+            addSelectOption(topicSelect, topic.id, topic.fields.Description)
+        }
+
+        function addFormatSelectOption(format) {
+            addSelectOption(formatSelect, format.id, format.fields.Description)
+        }
+
+
+
+        function populateTopics(topics) {
+            topics.map(topic => addTopicSelectOption(topic))
+        }
+
+        function populateFormat(topics) {
+            topics.map(topic => addFormatSelectOption(topic))
+        }
+
+        function addArena(arena) {
+            var div = document.createElement('div')
+            div.classList.add("arena");
+            div.setAttribute("data-topic", arena.fields.Topic || '')
+            div.setAttribute("data-format", arena.fields.Format || '')
+            div.appendChild(document.createTextNode(arena.fields.Description))
+            arenaContainer.appendChild(div)
+
+        }
+
+        function populateArena(arenas) {
+            arenas.map(arena => addArena(arena))
+        }
+
+        function addTips(tips) {
+            var div = document.createElement('div')
+            div.classList.add("tips");
+            div.setAttribute("data-topic", tips.fields.Topic || '')
+            div.setAttribute("data-format", tips.fields.Format || '')
+            div.innerHTML = tips.fields.Description
+            tipsContainer.appendChild(div)
+
+        }
+
+        function populateTips(tips) {
+            tips.map(tip => addTips(tip))
+        }
+
+        fetch('https://api.airtable.com/v0/apptcQ5YDrneaRlPm/Topic', {
+            method: 'get',
+            headers: new Headers({
+                'Authorization': 'Bearer keyZl2ED1jRXncibg'
+            })
+        }).then((response) => response.json()).then((json) => populateTopics(json.records));
+
+        fetch('https://api.airtable.com/v0/apptcQ5YDrneaRlPm/Format', {
+            method: 'get',
+            headers: new Headers({
+                'Authorization': 'Bearer keyZl2ED1jRXncibg'
+            })
+        }).then((response) => response.json()).then((json) => populateFormat(json.records));
+
+        fetch('https://api.airtable.com/v0/apptcQ5YDrneaRlPm/Arena', {
+            method: 'get',
+            headers: new Headers({
+                'Authorization': 'Bearer keyZl2ED1jRXncibg'
+            })
+        }).then((response) => response.json()).then((json) => populateArena(json.records));
+
+        fetch('https://api.airtable.com/v0/apptcQ5YDrneaRlPm/Tips', {
+            method: 'get',
+            headers: new Headers({
+                'Authorization': 'Bearer keyZl2ED1jRXncibg'
+            })
+        }).then((response) => response.json()).then((json) => populateTips(json.records));
     </script>
 </body>
 
