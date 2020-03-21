@@ -2,7 +2,7 @@
 
 <div class="bio"> Av konferanseorganisator <span class="author"></span>Kjetil Valle</span></div>
 
-<p class="hero"><img src="samuel-pereira-uf2nnANWa8Q-unsplash.jpg" ><p>
+<p class="hero"><img src="samuel-pereira-uf2nnANWa8Q-unsplash.jpg" ></p>
 <p class="image-credit">Photo by Samuel Pereira on Unsplash</p>
 
 Det er mye å tenke på når man skal sende inn et forslag til en presentasjon. Ikke bare bør du ha en god idé til hva du vil prate om, men du må også klare å overbevise noen om at de bør velge akkurat ditt forslag! Da kan det være greit å vite hva de på andre siden av skjemaet tenker og ser etter.
@@ -25,7 +25,7 @@ Jeg har altså vært del av litt forskjellige programkomitéer, både for små o
 
 Okay, nok sirkling rundt grøten… Her kommer en liste med (mer eller mindre) konkrete ting å tenke på når du skal skrive forslaget ditt.
 
-<p class="wide-image"><img  src="lukas-blazek-UAvYasdkzq8-unsplash.jpg" /><p>
+<p class="wide-image"><img  src="lukas-blazek-UAvYasdkzq8-unsplash.jpg" /></p>
 
 <p class="image-credit">Photo by Lukas Blazek on Unsplash</p>
 
