@@ -1,6 +1,6 @@
 # Hva man ser etter i søknader fra komiteens perspektiv?
 
-<div class="bio"> Av konferanseorganisator <span class="author"></span>Kjetil Valle</span></div>
+<div class="bio"> Av konferanseorganisator <span class="author">Kjetil Valle</span></div>
 
 <p class="hero"><img src="samuel-pereira-uf2nnANWa8Q-unsplash.jpg" ></p>
 <p class="image-credit">Photo by Samuel Pereira on Unsplash</p>

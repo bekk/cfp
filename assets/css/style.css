@@ -50,6 +50,8 @@ h4,
 h5,
 h6,
 p,
+ul,
+li,
 blockquote,
 img {
     max-width: 800px;
