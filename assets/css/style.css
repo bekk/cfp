@@ -104,6 +104,7 @@ header a span.rocket {
 
 
 .hero,
+.hero img,
 .wide-image,
 .wide-image img {
     display: block;
@@ -114,9 +115,13 @@ header a span.rocket {
 }
 
 .wide-image {
+    margin-top: 64px;
+}
+
+.wide-image img {
     height: 400px;
     object-fit: cover;
-    margin-top: 64px;
+
 }
 
 .image-credit {
