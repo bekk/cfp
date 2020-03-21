@@ -32,10 +32,8 @@ a {
     color: var(--skyfritt);
 }
 
-.container {
-    max-width: 800px;
-    margin-right: auto;
-    margin-left: auto;
+body {
+
     padding-right: 16px;
     padding-left: 16px;
     margin-top: 32px;
@@ -45,11 +43,90 @@ a {
     word-wrap: break-word;
 }
 
-h2{
-    margin-top:64px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+img {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    margin-top: 64px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-top: 64px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+
+header a {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: serif;
+    color: var(--hvit);
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.bio {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 64px;
+}
+
+.author {
+    font-weight: 600;
+}
+
+header a span.rocket {
+    display: block;
+    font-size: 6rem;
+    margin-bottom: -2rem;
 }
 
 
-h3{
-    margin-top:40px;
+
+.hero,
+.wide-image,
+.wide-image img {
+    display: block;
+    width: 1000px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wide-image {
+    height: 400px;
+    object-fit: cover;
+    margin-top: 64px;
+}
+
+.image-credit {
+    font-size: .8rem;
+    font-style: italic;
+    margin-bottom: 64px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.45;
 }
