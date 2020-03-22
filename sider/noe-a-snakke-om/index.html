@@ -238,9 +238,8 @@
             div.classList.add("arena");
             div.setAttribute("data-topic", arena.fields.Topic || '')
             div.setAttribute("data-format", arena.fields.Format || '')
-            div.innerHTML = `<h3>${arena.fields.Title}</h3><p><a href="${arena.fields.Url}">${arena.fields.Url}</a></p> ${arena.fields.Description}`;
+            div.innerHTML = `<h3>${arena.fields.Title}</h3><p>${arena.fields.Url ? '<a href="' + arena.fields.Url+ '">' +arena.fields.Url +'</a></p>' : ''} ${arena.fields.Description}`;
             arenaContainer.appendChild(div)
-
         }
 
         function populateArena(arenas) {
@@ -252,10 +251,8 @@
             div.classList.add("tips");
             div.setAttribute("data-topic", tips.fields.Topic || '')
             div.setAttribute("data-format", tips.fields.Format || '')
-            div.innerHTML = `<h3>${tips.fields.Title}</h3><p><a href="${tips.fields.Url}">${tips.fields.Url}</a></p> ${tips.fields.Description}`;
-
+            div.innerHTML = `<h3>${tips.fields.Title}</h3><p>${tips.fields.Url ? '<a href="' + tips.fields.Url+ '">' +tips.fields.Url +'</a></p>' : ''} ${tips.fields.Description}`;
             tipsContainer.appendChild(div)
-
         }
 
         function populateTips(tips) {
