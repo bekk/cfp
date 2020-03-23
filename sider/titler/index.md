@@ -23,6 +23,28 @@ Tenk hvor digg det hadde vært å finne en tyrirot av en tittel? En som brant se
 - Hvis du står fast, prøv flere ulike tilnærminger (se liste nedenfor med ulike typer titler)
 - Tittelen bør gjenspeile noe som føles ekte for deg. En kul tittel hjelper deg lite hvis fremføringen går i en annen tematisk retning.
 
+## En tittel er ikke bare en tittel
+
+Det finnes mange ulike titler til ulike formål. Her er noen eksempler.
+
+- Informative titler
+- Direkte titler
+- Indirekte titler
+- Problem
+- Problem/løsning
+- Invitasjon
+- Negativ
+- Hvordan
+- Spørsmål
+
+Og her er et par titler eksemplifisert:
+
+- Direkte titler – Ett år som konsulent
+- Indirekte titler – Hvis jeg ble mangemillionær…
+- Problem – 8-felts motorvei ut av Oslo for å takle påsketrafikken?
+- Hvordan – Slik skriver du kort. Og godt.
+- Spørsmål – Hvor ofte går du i dine kunders sko?
+
 ## Tre tips til å skrive bedre
 - Skriv så folk forstår deg. Innhold presentert i en språkdrakt de fleste forstår, oppfattes oftere som mer troverdig enn avanserte, tekniske forklaringer (derfor er små språklige piruetter som metaforer og sammenligninger viktig). Biologien støtter oss forfattere i dette da hjernen har en naturlig dragning mot alt som er enkelt å forstå, konsumere og gjøre :)
 
