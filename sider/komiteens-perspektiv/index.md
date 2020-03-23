@@ -76,6 +76,9 @@ Tittelen skal være både _konsis_ og _fengende_. Den kan gjerne være morsomt, 
 
 Som en liten bonus vil også en catchy tittel skille deg fra mengdene av andre forslag som skal vurderes av programkomitéen. Jeg husker fortsatt enkelte forslag vi vurderte for 5-6 år siden, nettopp fordi de hadde spesielt gode titler.
 
+<p class="hero"><img src="jonas-jacobsson-2xaF4TbjXT0-unsplash.jpg" ></p>
+<p class="image-credit">Photo by Jonas Jacobsson on Unsplash</p>
+
 ### 5. Vær tydelig på nivå og tiltenkt publikum
 
 Hvor avansert er dette foredraget? Hvem er foredraget ment for, og hvem ønsker du å se i salen? Er det noen forkunnskaper publikum bør ha for å få mest mulig ut av foredraget ditt?
