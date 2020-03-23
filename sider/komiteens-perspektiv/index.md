@@ -21,18 +21,18 @@ Jeg har altså vært del av litt forskjellige programkomitéer, både for små o
 
 Ikke alle programkomitéer jobber på samme måte.
 
-En stor konferanse som JavaZone får for eksempel inn langt flere forslag, og har en mye større komité som skal bli enige om dem, enn det en liten konferanse som Oslo Elm Days har. For en liten konferanse kan du derfor anta at alle i programkomitéen vil ha tid til å sette seg nøye inn i forslaget du har sendt inn. Mens sender du inn til en stor konferanse, der du konkurrerer med hundrevis (om ikke tusenvis) av andre, så vil ikke all i komitéen kunne sette seg like dypt inn i alle forslagene. Hva betyr det for deg i praksis? Jo, det gjør det ekstra viktig at forslaget ditt er lett å få oversikt over.
+En stor konferanse som JavaZone får for eksempel inn langt flere forslag, og har en mye større komité som skal bli enige om dem, enn det en liten konferanse som Oslo Elm Days har. For en liten konferanse kan du derfor anta at alle i programkomitéen vil ha tid til å sette seg nøye inn i forslaget du har sendt inn. Mens sender du inn til en stor konferanse, der du konkurrerer med hundrevis (om ikke tusenvis) av andre, så vil ikke alle i komitéen kunne sette seg like dypt inn i alle forslagene. Hva betyr det for deg i praksis? Jo, det gjør det ekstra viktig at forslaget ditt er lett å få oversikt over, slik at selv en rask gjennomlesing gjør komitéen interessert.
 
-En annen forskjell er at noen konferanser benytter en såkalt _double-blind_ review-prosess. Det vil si at ikke bare vet ikke du hvem som kommer til å vurdere forslaget ditt, men _de_ vet ikke hvem _du_ er heller! Dette gjøres naturligvis for å fjerne biases i vurderingen av forslag. Men det fører naturligvis også til at forslaget må stå på egne bein, uten at dine tidligere meritter kan hjelpe til å overbevise komitéen. Det bør fremkomme av CfP-en om den gjøres blind eller ei.
+En annen forskjell er at noen konferanser benytter en såkalt _double-blind_ review-prosess. Det vil si at ikke bare vet ikke du hvem som kommer til å vurdere forslaget ditt, men _de_ vet ikke hvem _du_ er heller! Dette gjøres naturligvis for å fjerne biases i vurderingen av forslag. Men det fører også til at forslaget må stå på egne bein, uten at dine tidligere meritter kan hjelpe til med å overbevise komitéen. Det bør fremkomme av CfP-en hvorvidt den gjøres blindt.
 
-Uavhengig av størrelsen på konferansen, så har de komitéene jeg har vært med i jobbet etter en forholdsvis lik metodikk. Vi har startet med en iterasjon der vi går igjennom alle forslagene og vurderer hvor aktuelle de er. En god del forslag ryker ut allerede her. Deretter iterererer vi gang etter gang på de resterende forslagene, gjerne med tanke på ulike dimensjoner av programmet, til antallet er kuttet ned til det programmet har plass til. Målet er å ende opp med en perfekt blanding av de tingene man har blitt enige om at programmet bør inneholde: Det kan være ting som fordelingen mellom nybegynner-vennlige vs avanserte foredrag, ulike temaer en ønsker dekket, praktisk matnyttige vs teoretiske eller artige foredrag, og mye, mye mer.
+Uavhengig av størrelsen på konferansen så har alle de komitéene jeg har vært med i jobbet etter en forholdsvis lik metodikk. Vi har startet med en iterasjon der vi går igjennom alle forslagene og vurderer hvor aktuelle de er. En god del forslag ryker ut allerede her. Deretter iterererer vi gang etter gang på de resterende forslagene, gjerne med tanke på ulike dimensjoner av programmet, til antallet er kuttet ned til det programmet har plass til. Målet er å ende opp med en perfekt blanding av de tingene man har blitt enige om at programmet bør inneholde: Det kan være ting som fordelingen mellom nybegynner-vennlige vs avanserte foredrag, ulike temaer en ønsker dekket, praktisk matnyttige vs teoretiske eller artige foredrag, og mye, mye mer.
 
-Vær klar over at vi som regel ganske tidlig i disse iterasjonene kommer til et punkt hvor det begynner å gjøre vondt å si nei til forslagene. Vi må alltid kutte mange, mange forerag vi veldig gjerne skulle hatt med. Med andre ord, selv om du får avslag på et forslag du har sendt inn så betyr ikke det nødvendigvis at komitéen ikke likte forslaget ditt!
+Vær klar over at vi som regel ganske tidlig i disse iterasjonene kommer til et punkt hvor det begynner å gjøre vondt å si nei til forslagene. Vi må alltid kutte mange, mange foredrag vi veldig gjerne skulle hatt med. Med andre ord, selv om du får avslag på et forslag du har sendt inn så betyr ikke det nødvendigvis at komitéen ikke likte forslaget ditt!
 
 
 ## Konkrete tips og triks
 
-Okay, nok sirkling rundt grøten… Her kommer en liste med (mer eller mindre) konkrete ting å tenke på når du skal skrive forslaget ditt.
+Okay, nok sirkling rundt grøten… Her kommer en liste med 16 (mer eller mindre) konkrete ting å tenke på når du skal skrive forslaget ditt.
 
 <p class="wide-image"><img  src="lukas-blazek-UAvYasdkzq8-unsplash.jpg" /></p>
 
@@ -48,29 +48,29 @@ De foredragene som er dårligst beskrevet ryker ofte ut allerede ved de innleden
 
 ### 2. “Outline” skal være detaljert og konkret
 
-Mange CfP-er skiller på beskrivelse av forslaget overfor programkomitéen og den beskrivelsen som konferansedeltagere skal få se. Feltene kan ha litt ulike navn i forskjellige skjemaer, men “Outline” og “Description” har vært vanlig i de CfP-ene jeg har vært med og utforme.
+Mange CfP-er skiller på beskrivelse av forslaget overfor programkomitéen og den beskrivelsen som konferansedeltagere skal få se. Feltene kan ha litt ulike navn i forskjellige skjemaer, men hhv “Outline” og “Description” har vært vanlig i de CfP-ene jeg har vært med og utforme.
 
 “Outline”, altså beskrivelsen rettet kun mot programkomitéen, er det absolutt viktigste å fokusere på for å selge inn forslaget ditt. Her bør du være så konkret som overhodet mulig om hva du ønsker å formidle i foredraget ditt. Gjør du en god jobb her, så blir det tydelig for oss at du har tenkt igjennom ting, og har god kontroll på materialet.
 
 Du trenger ikke stresse for mye med perfekte formuleringer og ordbruk her. Det viktigste er å få frem hva du tenker å gå igjennom. Et godt format er gjerne å skrive noen avsnitt som oppsummerer forslaget, fulgt av en punktliste som går igjennom de ulike delene av foredraget i form av stikkord eller setninger. Bonuspoeng hvis du legger på (ca) fordeling av tid på de ulike punktene.
 
-Noe mange gjør er å hinte om ting det skal prates om, eller konklusjoner som skal trekkes, i foredraget. Sånt er fint overfor publikum, men hører ikke hjemme når du skal overbevise en programkomité.
+Noe mange gjør er å hinte om ting det skal prates om, eller konklusjoner som skal trekkes, i foredraget. Sånt er fint overfor publikum, men hører _ikke_ hjemme når du skal overbevise en programkomité.
 
 ### 3. “Description” skal være catchy
 
 “Description” er altså feltet hvor du beskriver foredraget slik det skal se ut i programmet overfor publikum. Feltet kan noen steder hete andre ting (“abstract” er en annen vanlig variant), men det kommer forhåpentligvis klart frem hva som er ment for publikum og hva som er rettet mot komitéen.
 
-Komitéen er forhåpentligvis allerede solgt på foredraget ditt (siden du skrev en awesome outline). Det vi ønsker vi å finne ut her om dette er noe som kommer til å trekke folk. Det hjelper ikke om _vi_ tror foredraget blir bra, dersom det ikke trekker publikum.
+Komitéen er forhåpentligvis allerede solgt på foredraget ditt (siden du skrev en awesome outline). Det vi ønsker vi å finne ut her er om dette er noe som kommer til å trekke folk. Det hjelper ikke om _vi_ tror foredraget blir bra, dersom det ikke trekker publikum.
 
 Siden dette feltet gjerne skal være langt kortere enn “outline” er det også vanskeligere å skrive. Fokuser på å formidle hva du skal prate om, og hvorfor det er interessant!
 
-En utfordringen er at folk er late og gjerne ikke leser beskrivelsen særlig nøye. For å sikre at du får formidlet det som trengs før folk har hoppet videre til å lese om neste foredrag er det derfor en god tommelfingerregel at en ved å lese de 2-3 første setningene bør kunne vite hva temaet for foredraget er.
+Den største utfordringen er at folk er late, og du kan ikke forvente at de leser beskrivelsen din særlig nøye. For å sikre at du får formidlet det som trengs før folk har hoppet videre til å lese om neste foredrag er det derfor en god tommelfingerregel at en ved å lese de 2-3 første setningene bør kunne vite hva temaet for foredraget er.
 
 ### 4. Tittel er superviktig
 
-Tittelen er din mulighet til å gi et godt førsteinntrykket, både til publikum som leser programmet og til komitéen som skal vurdere forslaget.
+Tittelen er din mulighet til å gi et godt førsteinntrykk, både til publikum som leser programmet og til komitéen som skal vurdere forslaget.
 
-En god tittel får folk til å lese videre på beskrivelsen av foredraget. (Eller, hvis den er god nok, til å overtale folk til å dra på foredfaget uten å lese mer!)
+En god tittel får folk til å lese videre på beskrivelsen av foredraget. (Eller, hvis den er god nok, til å overtale folk til å dra på foredraget helt på egenhånd!)
 
 Tittelen skal være både _konsis_ og _fengende_. Den kan gjerne være morsomt, og gode ordspill og liknende kan være gull. Men husk at den også må være informativ. Det hjelper ikke om tittelen er kjempeartig hvis den ikke hinter noe om hva temaet for foredraget er. Det er veldig vanskelig å finne en god balanse her.
 
@@ -91,38 +91,36 @@ Når du har beskrevet hvem foredraget er ment for bør du også kunne si noe om 
 
 Hvis vi som programkomité ikke klarer å se et tydelige svar på disse spørsmålene, hvorfor skulle vi ønske å ta foredraget med i programmet?
 
-Det kan variere litt hvor det er naturlig å beskrive dette i forslaget ditt. Men om det ikke passer noe annet sted, sørg for å ta med et avsnitt om det i “outline”.
+Det kan variere litt hvor det er naturlig å beskrive dette i forslaget ditt. Hvis mulig, prøv å få det frem i beskrivelsen mot publikum. Men om det ikke passer noe annet sted, sørg i alle fall for å ta med et avsnitt om det i “outline”.
 
-Dette er også tanker som kan være lure å ta med seg når man skal jobbe videre med presentasjonen din. Hvis du har innhold som ikke understøtter hovedpoengene dine bør du kanskje vurdere å kutte i dem eller endre fokus.
+Dette er også tanker som kan være lure å ta med seg når man skal jobbe videre med presentasjonen din. Hvis du har innhold som ikke understøtter de poengene du ønsker at publikum skal sitte igjen med etter foredraget bør du kanskje vurdere å kutte litt eller endre fokus.
 
 ### 7. Fyll ut alle relevante felter
 
-Dette relaterer tilbake til punkt 1, om å ta seg tiden til å lage et godt forslag. Om du har kommet hit i dette dokumentet er sansen god for at du gjør dette riktig, men føler det kan være verdt å nevne likeve.
+Dette relaterer tilbake til punkt 1, om å ta seg tiden til å lage et godt forslag. Om du har kommet hit i dette dokumentet er sansen god for at du gjør dette riktig, men føler det kan være verdt å nevne likevel.
 
 Jeg har overaskende ofte sett at folk ikke fyller ut alle feltene vi ber om. Eller, dersom vi har gjort feltene obligatoriske, bare fyller inn "TBD", "TODO", "samme som over" eller tilsvarende. Det er en grunn til at vi spør om ting i skjemaet, og om man ikke gidder å svare på alt, så sender det ganske dårlige signaler.
 
 ### 8. Skryt av deg selv
 
-Det er ofte et eget felt for “annen info til programkomiteen” i skjemaet. Legg janteloven til side og bruk dette til å skryte av deg selv! Målet med CfP-forslaget ditt er å fremstå som noen som har peiling på det du skal snakke om _og_ som noen som kan presentere det på en god måte.
+Det er ofte et eget felt for “annen info til programkomiteen” i skjemaet. Legg janteloven til side og bruk dette til å skryte av deg selv! Målet med CfP-forslaget ditt er å fremstå som noen som har peiling på det du skal snakke om _og_ som kan presentere det på en god måte.
 
-Vi vurderer ikke foreraget ditt alene, men totalpakka som også inkluderer deg som foredragsholder. Hvorfor bør akkurat du få prate om dette? Hvis du har skrevet bloggposter eller annet om temaet kan det være nyttig informasjon. Alt som viser oss at du har peiling på dette er bra å få frem. Har du holdt foredrag tidligere som er tilgjengelig på video? Legg ved en link, selv om det kanskje var om et annet tema. Det hjelper oss å vite hvor flink du er til å presentere, og hvis du ikke linker til noe kommer vi antagelig til å google etter noe selv.
+Vi vurderer ikke foreraget ditt alene, men totalpakka som også inkluderer deg som foredragsholder. Hvorfor bør akkurat du få prate om dette? Hvis du har skrevet bloggposter eller annet om temaet kan det være nyttig informasjon. Alt som viser oss at du har peiling er bra å få frem. Har du holdt foredrag tidligere som er tilgjengelig på video? Legg ved en link, selv om det kanskje var om et annet tema. Det hjelper oss å vite hvor flink du er til å presentere, og hvis du ikke linker til noe kommer vi antagelig til å google etter noe selv…
 
-Dersom konferansen benytter blind reviews, som nevnt innledningsvis, så endrer dette naturligvis litt på ting. Men husk at det likevel er mulig å skryte av deg selv, du må bare gjøre det på en litt mer anonym måte. Du kan fortsatt fortelle hvor mye erfaring du har med teknologien du nevner, eller at du har mye erfaring med å holde akkurat denne typen workshops fra før, for eksempel.
+Dersom konferansen benytter blind reviews, som nevnt innledningsvis, så endrer dette naturligvis litt på ting. Men husk at det likevel er mulig å skryte av deg selv, du må bare gjøre det på en litt mer anonym måte. Du kan fortsatt fortelle hvor mye erfaring du har med teknologien du nevner, eller at du har holdt akkurat denne typen workshops mange ganger før, for eksempel.
 
 ### 9. Planlegger du live koding eller demo?  Beskriv planen din nøye.
 
 Live coding er risikosport. Det kan bli kjemebra, men det har også stor fare for å bli ordentlig dårlig. Ikke alle kan gjøre dette bra, og hvis noe går galt kan det være vanskelig å hente seg inn igjen.
 
-Vi ønsker ikke unødig høy risiko for slikt, men vil likevel gjerne ha med de gode forslagene. Hjelp oss å få risk/reward-vurderingen til å lande på din side her.
+Vi vil gjerne ha med det beste foredragene, men ønsker ikke unødig høy risiko live coding trainwrecks heller. Hjelp oss å gjøre en risk-/reward-vurdering som lander i din favør ved å eksplisitt adressere følgende:
 
-Det kan være lurt å adressere følgende i forslaget:
-
-Hvorfor trenger dette temaet/denne presentasjonen live koding/en demo.
-Hva er planen hvis noe går galt, og har du i så fall en backup-løsning å falle tilbake på?
+- Hvorfor trenger denne presentasjonen live koding/en demo?
+- Hva er planen hvis noe går galt, og har du i så fall en backup-løsning å falle tilbake på?
 
 ### 10. Få noen til å lese igjennom og gi feedback
 
-Når du nærmer deg ferdig med skrivingen, få noen til å se over og gi deg litt feedback. Du har antagelig skrevet deg ganske blind på eget forslag på dette punktet, og noen friske øyne kan hjelpe å gjøre forslaget ditt enda litt bedre.
+Når du nærmer deg ferdig med skrivingen, få noen til å se over og gi deg litt feedback. Du har antagelig skrevet deg ganske blind på eget forslag på dette punktet, og noen friske øyne kan hjelpe å gjøre forslaget ditt enda noen hakk bedre.
 
 Tenk på dette som brukertesting av forslaget du skal sende inn. De spørsmålene du får fra den som leser over, vil antagelig vi i komitéen også sitte med.
 
@@ -144,11 +142,12 @@ Hvis vi i komitéen begynner å stille spørsmål ved om du vil rekke å gå igj
 
 ### 12. Fortell om erfaringene dine
 
-Det kan være nyttig med foredrag som tar for seg ting på et teoretisk nivå, men i mange tilfeller er det erfaringsrapporter fra Virkeligheten(™️) som er mest lærerike.
+Det kan være nyttig med foredrag som tar for seg ting på et teoretisk nivå, men i mange tilfeller er det erfaringsrapporter fra Virkeligheten™️ som er de mest lærerike.
 
-Jada, det er kult at man kan automatisere provisjonering av miljøer med TECH X på 10 minutter. Men hvis du kan vise meg hvordan de gjorde det på NAV, så blir vi virkelig interesserte!
+Jada, det er kult at man kan automatisere provisjonering av miljøer med TECH X på 10 minutter. Men hvis du kan vise meg hvordan de gjorde det på Nav eller hos KentBank 1, så blir vi virkelig interesserte!
 
-Foredrag med erfaringsrapporter om hvordan noen forsøkte å gjøre noe og fikk det til er bra, men det er foredrag om negative erfaringer som virkelig er gull. Det er ikke bare en klisjé at det er feilene sine man lærer mest av. Ta den lærdommen og del den med alle i salen på JavaZone, da vel!
+Foredrag med erfaringsrapporter om hvordan noen fikk til noe de forsøkte på er vell og bra, men det er foredrag om negative erfaringer som virkelig er gull. Det er ikke bare en klisjé at det er feilene sine man lærer mest av. Ta den lærdommen og del den med alle i salen på JavaZone, da vel!
+
 
 ### 13. Noen tema er enklere å få godkjent enn andre
 
@@ -174,13 +173,13 @@ Vi får typisk inn mye mer som er på intro-nivå enn avanserte ting, til tross 
 
 Hvis du submitter en intro, og kan temaet godt nok, send gjerne inn et forslag om litt mer avansert variant i samme slengen!
 
-Og når du sender inn noe litt mer avansert, husk å være tydelig på hvem det forventede publikumet er, og hva de bør kunne fra før.
+Og, som nevnt over, når du sender inn noe litt mer avansert: Husk å være tydelig på hvem det forventede publikumet er, og hva de bør kunne fra før.
 
 ### 15. Vurder alternative formater
 
 Kunne foredraget ditt også fungert som en lyntale? Eller kanskje det kunne vært justert litt og laget som en workshop?
 
-Noen ganger liker vi det du har å komme med, men klarer kanskje ikke rettferdiggjøre å allokere akkurat like mye tid til det som du har bedt om. Eller kanskje det er et så spennende tema at vi ønsker at du skal gå enda litt mer i dybden.
+Noen ganger liker vi det du har å komme med, men klarer kanskje ikke rettferdiggjøre å allokere like mye tid til det som du har bedt om. Eller kanskje det er et så spennende tema at vi ønsker at du skal gå enda litt mer i dybden.
 
 Hvis du er fleksibel på lengde og/eller format, skriv gjerne noe om dette i forslaget. Kanskje er det akkurat dét komitéen trenger for å finne en plass til deg i programmet.
 
@@ -190,7 +189,7 @@ Hvis du er fleksibel på lengde og/eller format, skriv gjerne noe om dette i for
 
 Noen ganger konkurrerer du med veldig store navn—kanskje til og med hun som skrev rammeverket du vil prate om. Da er det veldig vanskelig å komme igjennom med akkurat _det_ forslaget.
 
-Eller kanskje du har sendt inn sammen med noen andre, og vedkommende fikk et annet av sine forslag godkjent. Folk får generelt ikke godkjent flere forslag på JavaZone, og dermed mister du dine muligheter fordi vennen din var heldig. Med mindre du også har flere forslag inne til vurdering!
+Eller kanskje du har sendt inn sammen med noen andre, og vedkommende fikk et annet av sine forslag godkjent. Folk får generelt ikke godkjent flere forslag på JavaZone, og dermed mister du dine muligheter fordi vennen din var heldig. Med mindre du også har flere forslag inne til vurdering, naturligvis!
 
 Pass dog på å ikke overdrive. To til tre forslag er plenty. Hvis du sender flere blir det mye arbeid for komitéen å vurdere, så bruk heller tiden til å tenke godt igjennom dem du faktisk sender inn.
 
