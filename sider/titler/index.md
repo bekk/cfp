@@ -5,7 +5,7 @@
 <p class="hero"><img src="https://images.unsplash.com/photo-1520871942340-42898ab9167f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2298&q=80" /></p>
 <p class="image-credit">Photo by Kelly Sikkema on Unsplash</p>
 
-Med mindre du er en aktiv skogfriskus, eller bare kan veldig mye om trær, så skjønner du kanskje ikke helt hva jeg forsøker å si. Forhåpentligvis leser du likevel videre for å forstå hva tittelen “Finn tyriroten” betyr for deg og ditt fremtidige bidrag til å JavaZone.
+Med mindre du er en aktiv skogfriskus, eller bare kan veldig mye om trær, så skjønner du kanskje ikke helt hva jeg forsøker å si. Forhåpentligvis leser du likevel videre for å forstå hva tittelen “Finn tyriroten” betyr for deg og ditt fremtidige bidrag til JavaZone.
 
 ## Hva er så denne tyriroten?
 
@@ -24,7 +24,7 @@ Tenk hvor digg det hadde vært å finne en tyrirot av en tittel? En som brant se
 - Tittelen bør gjenspeile noe som føles ekte for deg. En kul tittel hjelper deg lite hvis fremføringen går i en annen tematisk retning.
 
 ## Tre tips til å skrive bedre
-- Skriv å folk forstår deg. Innhold presentert i en språkdrakt de fleste forstår, oppfattes oftere som mer troverdig enn avanserte, tekniske forklaringer (derfor er små språklige piruetter som metaforer og sammenligninger viktig). Biologien støtter oss forfattere i dette da hjernen har en naturlig dragning mot alt som er enkelt å forstå, konsumere og gjøre :)
+- Skriv så folk forstår deg. Innhold presentert i en språkdrakt de fleste forstår, oppfattes oftere som mer troverdig enn avanserte, tekniske forklaringer (derfor er små språklige piruetter som metaforer og sammenligninger viktig). Biologien støtter oss forfattere i dette da hjernen har en naturlig dragning mot alt som er enkelt å forstå, konsumere og gjøre :)
 
 <img src="bilde1.png" style="display:inline-block; width: 45%; margin-bottom: 2rem"/>
 <img src="bilde2.png" style="display:inline-block; width: 45%; margin-bottom: 2rem"/>
