@@ -2,9 +2,8 @@
 
 <div class="bio"> Av de relativt nye foredragsholderne <span class="author">Caroline Odden</span> og <span class="author">Nicolai Hagen</span>🚀</div>
 
-<p class="wide-image"><img  src="headway-F2KRf_QfCqw-unsplash.jpg" /></p>
-
-<p class="image-credit">Photo by Headway on Unsplash</p>
+<p class="wide-image"><img alt="Bilde av rockekonsert" src="actionvance-eXVd7gDPO9A-unsplash.jpg" /></p>
+<p class="image-credit">Bilde fra ActionVance fra Unsplash</p>
 
 Alle folk er forskjellige. Så de erfaringene vi skriver om her er ikke nødvendigvis hvordan du har det eller kommer til å få det, det er på ingen måte en fasit. Vi tenker uansett å fortelle våre erfaringer, i og med at begge to er forholdsvis nye i foredrags-gamet, og sitter igjen med noen ting vi har lyst til å dele.
 
@@ -56,8 +55,3 @@ Og helt helt helt til slutt:
 La JavaZone komiteen være den som bestemmer om foredraget ditt er godt nok til å få plass på konferansen, ikke la være å sende inn fordi du tror det er dårlig. 
 
 Lykke til! 
-
-<p class="wide-image"><img  src="actionvance-eXVd7gDPO9A-unsplash.jpg" /></p>
-
-<p class="image-credit">Photo by ActionVance on Unsplash</p>
-
