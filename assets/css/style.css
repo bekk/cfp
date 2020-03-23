@@ -139,6 +139,11 @@ p {
     line-height: 1.45;
 }
 
-li{
+li {
     margin-bottom: 8px;
+}
+
+select,
+button {
+    font-size: 1.5rem;
 }

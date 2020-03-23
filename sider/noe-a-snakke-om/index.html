@@ -28,127 +28,153 @@
     </script>
     <!-- End Jekyll SEO tag -->
     <link rel="stylesheet" href="/cfp/assets/css/style.css">
-    <!-- <link rel="stylesheet" href="../../assets/css/style.css"> -->
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <style>
-        select{
+        select {
             width: 100%;
         }
 
-        .warning, .workshop{
+        .warning,
+        .workshop {
             transition: opacity 200ms ease-in-out;
         }
 
-        .warning, .show{
+        .warning,
+        .show {
             opacity: 1;
         }
 
-        .workshop, .hide{
+        .workshop,
+        .hide {
             opacity: 0;
+        }
+
+        .arena,
+        .tips {
+            margin-top: 32px;
+            border: 1px solid var(--hvit);
+            padding: 10px;
+        }
+
+        .arena h3,
+        .tips h3 {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .arena p,
+        .tips p {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .link {
+            display: block;
         }
     </style>
 </head>
 
 <body>
-    
+
     <header><a href="/cfp/"> <span class="rocket">🚀</span>Et ønske om å dele </a></header>
     <div class="container">
-            <div id="warning">
-                <h1>Hvordan finner en noe å snakke om?</h1>
+        <div id="warning">
+            <h1>Hvordan finner en noe å snakke om?</h1>
 
-                <div class="bio"> Av Trønderen fra Fredrikstad, <span class="author">Dag Frode Solberg</span></div>
+            <div class="bio"> Av Trønderen fra Fredrikstad, <span class="author">Dag Frode Solberg</span></div>
 
-                <p class="hero"><img src="teemu-paananen-bzdhc5b3Bxs-unsplash.jpg" ></p>
-                <p class="image-credit">Photo by Teemu Paananen on Unsplash</p>
+            <p class="hero"><img src="teemu-paananen-bzdhc5b3Bxs-unsplash.jpg"></p>
+            <p class="image-credit">Photo by Teemu Paananen on Unsplash</p>
 
-                                
 
+
+            <p>
+                Du har funnet ut at du har et ønske om å dele. Du har kanskje et tema i tankene, eller en
+                arena du ønsker å dele det i? Det kan være i faggruppen, på en meetup, på en fagdag, på et
+                kundeseminar, på en konferanse, i et podcast, eller noe annet. Listen over steder du kan
+                dele er stor. Hvor utfordrende et gitt format eller sted å dele er, er unikt for deg. Så
+                det er viktig å utforske mulighetene og kjenne på hva som føles riktig.
+            </p>
+            <p>
+                Denne siden er laget for å hjelpe deg med å finne noe å snakke om, hvilken vinkling du kan
+                du kan ta, og til å finne et sted du ønsker å dele! Den er inspirert av artikkelen til
+                <a href="https://lucybain.com/blog/2016/conference-proposal-ideas/"> Lucy Bain om hvordan
+                    finne noe å snakke om på konferanser</a>. Jeg prøver å ta et steg videre ved å tilby
+                flere spørsmål en kan tenke rundt, og ser på hvor en kan dele. På mange måter er denne
+                siden noe jeg selv kunne ha trengt for et års tid siden og som ville ha gjort det enklere
+                for meg med å komme igang med å dele. Nå har jeg et ønske om å dele det jeg har lært det
+                siste året med deg.
+            </p>
+            <p>
+                Men, før vi går videre må vi ha en ting helt klart. Jeg ønsker å høre hva du har å dele.
+                Caroline, Nicolai, Kjetil, Erlend, Erik, og Marthe ønsker å høre hva du har å dele. Faggruppa
+                du er i ønsker å høre hva du har å dele. Bekk ønsker å høre hva du har å dele. Hvorfor? Du kan
+                noe andre ikke kan. Ingen er som deg. Du har egne opplevelser, følelser, perspektiver, kunnskap
+                og erfaringer du tar med deg inn i jobben. Det gjør at det du har å si er viktig og nyttig.
+                Dette handler om å ha et ønske om å dele. Her er Janteloven et hinder. Du må derfor være forberedt
+                på å sette den til side for en stund for å få mest mulig ut av denne økten.
+            </p>
+
+
+            <h3>For å gå videre må du legge fra deg Janteloven</h3>
+            <h4>Jeg bekrefter at</h4>
+            <ul>
+                <li>Jeg tror jeg er noe.</li>
+                <li>Jeg tror jeg er like meget som dere.</li>
+                <li>Jeg tror jeg klokere enn dere (på enkelte ting).</li>
+                <li>Jeg tror jeg er bedre enn dere (på enkelte ting).</li>
+                <li>Jeg tror jeg vet mer enn dere (om enkelte ting).</li>
+                <li>Jeg tror jeg er mere enn dere (på enkelte områder).</li>
+                <li>Jeg tror jeg duger til noe.</li>
+                <li>Jeg tror dere bryr dere om meg og hva jeg har å si.</li>
+                <li>Jeg tror jeg kan lære dere noe</li>
+            </ul>
+            <p>
+                <button onclick="showWorkshop()" type="button">Bekreft</button>
+            </p>
+        </div>
+        <div id="workshop" class="center">
+            <div>
+                <h2>Finn noe å snakke om</h2>
                 <p>
-                    Du har funnet ut at du har et ønske om å dele. Du har kanskje et tema i tankene, eller en 
-                    arena du ønsker å dele det i? Det kan være i faggruppen, på en meetup, på en fagdag, på et 
-                    kundeseminar, på en konferanse, i et podcast, eller noe annet. Listen over steder du kan 
-                    dele er stor. Hvor utfordrende et gitt format eller sted å dele er, er unikt for deg. Så 
-                    det er viktig å utforske mulighetene og kjenne på hva som føles riktig.
+                    Ved å se på mulighetene i nedtrekkslitene under vil du få inspirasjon til noe du kan snakke om.
+                    Velg gjerne et valg under "tema" og skriv ned de tenke du får på et ark.
+                    Du kan gjøre det samme for "format" og se hvilke tanker de trigger. Det kan også være nyttig å se på
+                    "Steder du kan dele" for å se om det kan gi inspirasjon til å finne noe å snakke om. Helt nederst er
+                    det lagt til noen tips. Kom gjerne med tilbakemeldinger og forslag til nye tips som kan legges til.
+                    Dette kan også være inspirasjon knyttet til tema eller formatet!
                 </p>
-                <p>
-                    Denne siden er laget for å hjelpe deg med å finne noe å snakke om, hvilken vinkling du kan
-                     du kan ta, og til å finne et sted du ønsker å dele! Den er inspirert av artikkelen til
-                    <a href="https://lucybain.com/blog/2016/conference-proposal-ideas/"> Lucy Bain om hvordan 
-                        finne noe å snakke om på konferanser</a>. Jeg prøver å ta et steg videre ved å tilby 
-                        flere spørsmål en kan tenke rundt, og ser på hvor en kan dele. På mange måter er denne
-                         siden noe jeg selv kunne ha trengt for et års tid siden og som ville ha gjort det enklere
-                          for meg med å komme igang med å dele. Nå har jeg et ønske om å dele det jeg har lært det 
-                          siste året med deg.
-                </p>
-                <p>
-                    Men, før vi går videre må vi ha en ting helt klart. Jeg ønsker å høre hva du har å dele. 
-                    Caroline, Nicolai, Kjetil, Erlend, Erik, og Marthe ønsker å høre hva du har å dele. Faggruppa 
-                    du er i ønsker å høre hva du har å dele. Bekk ønsker å høre hva du har å dele. Hvorfor? Du kan 
-                    noe andre ikke kan. Ingen er som deg. Du har egne opplevelser, følelser, perspektiver, kunnskap 
-                    og erfaringer du tar med deg inn i jobben. Det gjør at det du har å si er viktig og nyttig. 
-                    Dette handler om å ha et ønske om å dele. Her er Janteloven et hinder. Du må derfor være forberedt
-                     på å sette den til side for en stund for å få mest mulig ut av denne økten.
-                </p>
-    
 
-                <h3>For å gå videre må du legge fra deg Janteloven</h3>
-                <h4>Jeg bekrefter at</h4>
-                <ul>
-                    <li>Jeg tror jeg er noe.</li>
-                    <li>Jeg tror jeg er like meget som dere.</li>
-                    <li>Jeg tror jeg klokere enn dere (på enkelte ting).</li>
-                    <li>Jeg tror jeg er bedre enn dere (på enkelte ting).</li>
-                    <li>Jeg tror jeg vet mer enn dere (om enkelte ting).</li>
-                    <li>Jeg tror jeg er mere enn dere (på enkelte områder).</li>
-                    <li>Jeg tror jeg duger til noe.</li>
-                    <li>Jeg tror dere bryr dere om meg og hva jeg har å si.</li>
-                    <li>Jeg tror jeg kan lære dere noe</li>
-                </ul>
+                <label>Jeg ønsker å dele <br />
+                    <select id="topic" onchange="update()">
+                        <option value="none" selected> --velg tema-- </option>
+
+                    </select>
+                </label>
+                <label><br />som<br />
+                    <select id="format" onchange="update()">
+                        <option value="none" selected>--format--</option>
+
+                    </select>
+                </label>
                 <p>
-                    <button onclick="showWorkshop()" type="button">Bekreft</button>
+                    Valg av tema påvirker hvilke tips, men i noen tilfeller også hvilke steder det passer å dele.
+                    Format påvirker hvilke steder det passer å dele og hvilke tips som vises.
                 </p>
             </div>
-            <div id="workshop" class="center">
-                <div>
-                    <h2>Finn noe å snakke om</h2>
-                    <p>
-                        Ved å se på mulighetene i nedtrekkslitene under vil du få inspirasjon til noe du kan snakke om.
-                        Velg gjerne et valg under "tema" og skriv ned de tenke du får på et ark.
-                        Du kan gjøre det samme for "format" og se hvilke tanker de trigger. Det kan også være nyttig å se på 
-                        "Steder du kan dele" for å se om det kan gi inspirasjon til å finne noe å snakke om. Helt nederst er
-                        det lagt til noen tips. Kom gjerne med tilbakemeldinger og forslag til nye tips som kan legges til.
-                        Dette kan også være inspirasjon knyttet til tema eller formatet!
-                    </p>
 
-                    <label>Jeg ønsker å dele <br/>
-                        <select id="topic" onchange="update()">
-                            <option value="none" selected> --velg tema-- </option>
-
-                        </select>
-                    </label>
-                    <label><br/>som<br/> 
-                        <select id="format" onchange="update()">
-                            <option value="none" selected>--format--</option>
-
-                        </select>
-                    </label>
-                    <p>
-                        Valg av tema påvirker hvilke tips, men i noen tilfeller også hvilke steder det passer å dele. 
-                        Format påvirker hvilke steder det passer å dele og hvilke tips som vises.
-                    </p>
-                </div>
-              
-                <div>
-                    <h2>Steder du kan dele</h2>
-                    <div id="arena-container"></div>
+            <div>
+                <h2>Steder du kan dele</h2>
+                <div id="arena-container"></div>
 
 
-                </div>
-                <div>
-                    <h2>Tips til det du tenker å dele</h2>
-                    <div id="tips-container"></div>
-
-                </div>
             </div>
+            <div>
+                <h2>Tips til det du tenker å dele</h2>
+                <div id="tips-container"></div>
+
+            </div>
+        </div>
     </div>
     <script>
         const warning = document.getElementById("warning")
@@ -158,12 +184,12 @@
         function showWorkshop() {
             warning.classList.add("hide")
             setTimeout(() => {
-                window.scrollTo(0,0);
+                window.scrollTo(0, 0);
 
-            warning.style.display = "none";
+                warning.style.display = "none";
                 workshop.style.display = "block";
                 workshop.classList.add("show")
-            },200)
+            }, 200)
         }
 
 
@@ -238,7 +264,11 @@
             div.classList.add("arena");
             div.setAttribute("data-topic", arena.fields.Topic || '')
             div.setAttribute("data-format", arena.fields.Format || '')
-            div.innerHTML = `<h3>${arena.fields.Title}</h3><p>${arena.fields.Url ? '<a href="' + arena.fields.Url+ '">' +arena.fields.Url +'</a></p>' : ''} ${arena.fields.Description}`;
+            div.innerHTML =
+                `<h3>${arena.fields.Title}</h3>
+                <p>${arena.fields.Url ? '<a class="link" href="' + arena.fields.Url+ '">' +arena.fields.Url +'</a>' :
+                    ''}
+                    ${arena.fields.Description}</p>`;
             arenaContainer.appendChild(div)
         }
 
@@ -251,7 +281,10 @@
             div.classList.add("tips");
             div.setAttribute("data-topic", tips.fields.Topic || '')
             div.setAttribute("data-format", tips.fields.Format || '')
-            div.innerHTML = `<h3>${tips.fields.Title}</h3><p>${tips.fields.Url ? '<a href="' + tips.fields.Url+ '">' +tips.fields.Url +'</a></p>' : ''} ${tips.fields.Description}`;
+            div.innerHTML =
+                `<h3>${tips.fields.Title}</h3>
+                <p>${tips.fields.Url ? '<a class="link" href="' + tips.fields.Url+ '">' +tips.fields.Url +'</a>' : ''}
+                    ${tips.fields.Description}</p>`;
             tipsContainer.appendChild(div)
         }
 
