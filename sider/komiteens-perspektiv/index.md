@@ -19,7 +19,16 @@ Jeg har altså vært del av litt forskjellige programkomitéer, både for små o
 
 ## Hvordan jobber programkomitéen?
 
-> Noe om ulike pkom-prosesser her.
+Ikke alle programkomitéer jobber på samme måte.
+
+En stor konferanse som JavaZone får for eksempel inn langt flere forslag, og har en mye større komité som skal bli enige om dem, enn det en liten konferanse som Oslo Elm Days har. For en liten konferanse kan du derfor anta at alle i programkomitéen vil ha tid til å sette seg nøye inn i forslaget du har sendt inn. Mens sender du inn til en stor konferanse, der du konkurrerer med hundrevis (om ikke tusenvis) av andre, så vil ikke all i komitéen kunne sette seg like dypt inn i alle forslagene. Hva betyr det for deg i praksis? Jo, det gjør det ekstra viktig at forslaget ditt er lett å få oversikt over.
+
+En annen forskjell er at noen konferanser benytter en såkalt _double-blind_ review-prosess. Det vil si at ikke bare vet ikke du hvem som kommer til å vurdere forslaget ditt, men _de_ vet ikke hvem _du_ er heller! Dette gjøres naturligvis for å fjerne biases i vurderingen av forslag. Men det fører naturligvis også til at forslaget må stå på egne bein, uten at dine tidligere meritter kan hjelpe til å overbevise komitéen. Det bør fremkomme av CfP-en om den gjøres blind eller ei.
+
+Uavhengig av størrelsen på konferansen, så har de komitéene jeg har vært med i jobbet etter en forholdsvis lik metodikk. Vi har startet med en iterasjon der vi går igjennom alle forslagene og vurderer hvor aktuelle de er. En god del forslag ryker ut allerede her. Deretter iterererer vi gang etter gang på de resterende forslagene, gjerne med tanke på ulike dimensjoner av programmet, til antallet er kuttet ned til det programmet har plass til. Målet er å ende opp med en perfekt blanding av de tingene man har blitt enige om at programmet bør inneholde: Det kan være ting som fordelingen mellom nybegynner-vennlige vs avanserte foredrag, ulike temaer en ønsker dekket, praktisk matnyttige vs teoretiske eller artige foredrag, og mye, mye mer.
+
+Vær klar over at vi som regel ganske tidlig i disse iterasjonene kommer til et punkt hvor det begynner å gjøre vondt å si nei til forslagene. Vi må alltid kutte mange, mange forerag vi veldig gjerne skulle hatt med. Med andre ord, selv om du får avslag på et forslag du har sendt inn så betyr ikke det nødvendigvis at komitéen ikke likte forslaget ditt!
+
 
 ## Konkrete tips og triks
 
@@ -91,15 +100,11 @@ Jeg har overaskende ofte sett at folk ikke fyller ut alle feltene vi ber om. Ell
 
 ### 8. Skryt av deg selv
 
-Det er et eget felt for “annen info til programkomiteen” i skjemaet. Legg janteloven til side og bruk dette til å skryte av deg selv.
+Det er ofte et eget felt for “annen info til programkomiteen” i skjemaet. Legg janteloven til side og bruk dette til å skryte av deg selv! Målet med CfP-forslaget ditt er å fremstå som noen som har peiling på det du skal snakke om _og_ som noen som kan presentere det på en god måte.
 
-Vi vurderer ikke foreraget ditt alene, men totalpakka som også inkluderer deg som foredragsholder. Hvorfor bør akkurat du få prate om dette?
+Vi vurderer ikke foreraget ditt alene, men totalpakka som også inkluderer deg som foredragsholder. Hvorfor bør akkurat du få prate om dette? Hvis du har skrevet bloggposter eller annet om temaet kan det være nyttig informasjon. Alt som viser oss at du har peiling på dette er bra å få frem. Har du holdt foredrag tidligere som er tilgjengelig på video? Legg ved en link, selv om det kanskje var om et annet tema. Det hjelper oss å vite hvor flink du er til å presentere, og hvis du ikke linker til noe kommer vi antagelig til å google etter noe selv.
 
-Hvis du har skrevet bloggposter eller annet om temaet kan det være nyttig informasjon. Alt som viser oss at du har peiling på dette er bra å få frem.
-
-Har du holdt foredrag tidligere som er tilgjengelig på video? Legg ved en link, selv om det kanskje var om et annet tema. Det hjelper oss å vite hvor flink du er til å presentere, og hvis du ikke linker til noe kommer vi antagelig til å google etter noe selv.
-
-Målet med CfP-forslaget ditt er å fremstå som noen som har peiling på det du skal snakke om _og_ som noen som kan presentere det på en god måte.
+Dersom konferansen benytter blind reviews, som nevnt innledningsvis, så endrer dette naturligvis litt på ting. Men husk at det likevel er mulig å skryte av deg selv, du må bare gjøre det på en litt mer anonym måte. Du kan fortsatt fortelle hvor mye erfaring du har med teknologien du nevner, eller at du har mye erfaring med å holde akkurat denne typen workshops fra før, for eksempel.
 
 ### 9. Planlegger du live koding eller demo?  Beskriv planen din nøye.
 
@@ -122,13 +127,15 @@ Og dessuten er det en fin måte å luke ut de (forhåpentligvis) siste skrivefei
 
 Det er mange i Bekk som gjerne hjelper deg med dette! Rop ut på #presentasjonshjelp på Slack hvis du ikke har noen av dem i umiddelbar nærhet.
 
+<p class="hero"><img src="talia-cohen-AN2SypyyOnA-unsplash.jpg" ></p>
+<p class="image-credit">Photo by Talia Cohen on Unsplash</p>
+
+
 ### 11. Spiss temaet ditt
 
-Det er fristende å prøve å dekke over alt mulig gøy du vil prate om. Men tenk på tiden du har til rådighet. En av de feilene vi oftest ser er at folk ikke er flinke til å kutte ut det som ikke _må_ være med.
+Det er fristende å prøve å dekke over alt mulig gøy du vil prate om. Men tenk på tiden du har til rådighet. En av de feilene vi oftest ser er at folk ikke er flinke til å kutte ut det som ikke _må_ være med. Det er ved å kutte at du får fokusert på de aller viktigste tingene, selv om det er en prosess som kan gjøre ganske vondt når man planlegger et foredrag.
 
-Det er ved å kutte at du får fokusert på de aller viktigste tingene, selv om det er en prosess som kan gjøre ganske vondt når man planlegger et foredrag.
-
-Spisse foredrag er ofte bedre enn de generelle, nettopp fordi de går i dyben i stedet for å bare skrape i overflaten på ting. (Det er selvsagt unntak fra denne regelen, men gjør en vurdering på om akkurat ditt foredrag faktisk er ett av dem.)
+Spisse foredrag er ofte bedre enn de generelle, nettopp fordi de gjør et typdykk i materiet i stedet for å bare plaske i overflaten. (Det er selvsagt unntak fra denne regelen, men gjør en vurdering på om akkurat ditt foredrag faktisk er ett av dem.)
 
 Hvis vi i komitéen begynner å stille spørsmål ved om du vil rekke å gå igjennom om alt du har nevnt i outline på en god måte på tiden du har til rådighet, så er det et klart rødt flagg, og sjansen din for å bli valgt vil falle.
 
@@ -152,6 +159,12 @@ Se også gjerne etter hva det spørres etter i CfP. Noen konferanser er tydelige
 
 Protip: Forslag rundt sikkerhet har vært ettertraktet i alle årene jeg var aktiv med JavaZone, og går neppe av moten på det første. Et annet tips, som nevnt over, er erfaringsrapporter eller postmortems der ting ikke har gått som planlagt.
 
+
+<p class="hero"><img src="steve-harvey-KrDsArJuy1A-unsplash.jpg" ></p>
+<p class="image-credit">Photo by Steve Harvey on Unsplash</p>
+
+
+
 ### 14. Ikke vær redd for avanserte tema
 
 Vi får typisk inn mye mer som er på intro-nivå enn avanserte ting, til tross for at vi ønsker en god balanse av dette i programmet. Det betyr at det noen ganger kan være enklere å få godkjent et litt mer avansert forslag. Det er tross alt begrenset hvor mange “intro til X”-foredrag man kan fylle programmet med…
@@ -170,11 +183,11 @@ Hvis du er fleksibel på lengde og/eller format, skriv gjerne noe om dette i for
 
 ### 16. Send inn flere enn ett forslag
 
-Å sende inn flere forslag øker sjansene dine.
+Å sende inn flere forslag øker sjansene dine. Så enkelt er det faktisk.
 
-Noen ganger konkurrerer du med veldig store navn—kanskje til og med hun som skrev rammeverket du vil prate om! Da er det vanskelig å komme igjennom med akkurat det forslaget.
+Noen ganger konkurrerer du med veldig store navn—kanskje til og med hun som skrev rammeverket du vil prate om. Da er det veldig vanskelig å komme igjennom med akkurat _det_ forslaget.
 
-Eller kanskje du har sendt inn sammen med noen andre, og vedkommende fikk et annet av sine forslag godkjent. Folk får generelt ikke godkjent flere forslag på JavaZone, og dermed mister du dine muligheter fordi vennen din var heldig, med mindre du også har flere forslag inne til vurdering.
+Eller kanskje du har sendt inn sammen med noen andre, og vedkommende fikk et annet av sine forslag godkjent. Folk får generelt ikke godkjent flere forslag på JavaZone, og dermed mister du dine muligheter fordi vennen din var heldig. Med mindre du også har flere forslag inne til vurdering!
 
 Pass dog på å ikke overdrive. To til tre forslag er plenty. Hvis du sender flere blir det mye arbeid for komitéen å vurdere, så bruk heller tiden til å tenke godt igjennom dem du faktisk sender inn.
 
