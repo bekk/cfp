@@ -2,9 +2,9 @@ Sitter du inne med en idé du tror vil interessere andre, men synes veien mot no
 
 På programmet:
 
-- [Intro til det å holde talks på konferanser](/cfp/intro-til-talks/) - Av de relativt nye foredragsholderne <span class="author">Caroline Odden</span> og <span class="author">Nicolai Hagen</span>🚀
-- [Hvordan finne ut av hva man kan snakke om?](/cfp/noe-a-snakke-om/) - Av Trønderen fra Fredrikstad, <span class="author">Dag Frode Solberg</span>
-- [Hva man ser etter i søknader fra komiteens perspektiv?](/cfp/komiteens-perspektiv/) - Av konferanseorganisator <span class="author">Kjetil Valle</span>
-- [Hvordan fange gjennom titler?](/cfp/titler/) - Av tekstforfatter <span class="author">Erik Mathisen</span>🚀
+- [Intro til det å holde talks på konferanser](/cfp/intro-til-talks/)
+- [Hvordan finne ut av hva man kan snakke om?](/cfp/noe-a-snakke-om/)
+- [Hva man ser etter i søknader fra komiteens perspektiv?](/cfp/komiteens-perspektiv/)
+- [Hvordan fange gjennom titler?](/cfp/titler/)
 
 [Nyttige lenker om foredrag](/cfp/litt-av-hvert/)
