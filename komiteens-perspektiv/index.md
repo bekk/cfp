@@ -1,6 +1,6 @@
 # Hva man ser etter i søknader fra komiteens perspektiv?
 
-<div class="bio"> Av konferanseorganisator <span class="author">Kjetil Valle</span></div>
+<div class="bio"> Av konferanseorganisator <span class="author">Kjetil Valle</span>💪</div>
 
 <p class="hero"><img src="samuel-pereira-uf2nnANWa8Q-unsplash.jpg" ></p>
 <p class="image-credit">Photo by Samuel Pereira on Unsplash</p>
@@ -28,7 +28,6 @@ En annen forskjell er at noen konferanser benytter en såkalt _double-blind_ rev
 Uavhengig av størrelsen på konferansen så har alle de komitéene jeg har vært med i jobbet etter en forholdsvis lik metodikk. Vi har startet med en iterasjon der vi går igjennom alle forslagene og vurderer hvor aktuelle de er. En god del forslag ryker ut allerede her. Deretter iterererer vi gang etter gang på de resterende forslagene, gjerne med tanke på ulike dimensjoner av programmet, til antallet er kuttet ned til det programmet har plass til. Målet er å ende opp med en perfekt blanding av de tingene man har blitt enige om at programmet bør inneholde: Det kan være ting som fordelingen mellom nybegynner-vennlige vs avanserte foredrag, ulike temaer en ønsker dekket, praktisk matnyttige vs teoretiske eller artige foredrag, og mye, mye mer.
 
 Vær klar over at vi som regel ganske tidlig i disse iterasjonene kommer til et punkt hvor det begynner å gjøre vondt å si nei til forslagene. Vi må alltid kutte mange, mange foredrag vi veldig gjerne skulle hatt med. Med andre ord, selv om du får avslag på et forslag du har sendt inn så betyr ikke det nødvendigvis at komitéen ikke likte forslaget ditt!
-
 
 ## Konkrete tips og triks
 
@@ -131,7 +130,6 @@ Det er mange i Bekk som gjerne hjelper deg med dette! Rop ut på #presentasjonsh
 <p class="hero"><img src="talia-cohen-AN2SypyyOnA-unsplash.jpg" ></p>
 <p class="image-credit">Photo by Talia Cohen on Unsplash</p>
 
-
 ### 11. Spiss temaet ditt
 
 Det er fristende å prøve å dekke over alt mulig gøy du vil prate om. Men tenk på tiden du har til rådighet. En av de feilene vi oftest ser er at folk ikke er flinke til å kutte ut det som ikke _må_ være med. Det er ved å kutte at du får fokusert på de aller viktigste tingene, selv om det er en prosess som kan gjøre ganske vondt når man planlegger et foredrag.
@@ -148,7 +146,6 @@ Jada, det er kult at man kan automatisere provisjonering av miljøer med TECH X 
 
 Foredrag med erfaringsrapporter om hvordan noen fikk til noe de forsøkte på er vell og bra, men det er foredrag om negative erfaringer som virkelig er gull. Det er ikke bare en klisjé at det er feilene sine man lærer mest av. Ta den lærdommen og del den med alle i salen på JavaZone, da vel!
 
-
 ### 13. Noen tema er enklere å få godkjent enn andre
 
 Det er vanskelig å forutsi nøyaktig hva det blir, men hvert år er det et eller flere “hot topics” det blir stor konkurranse om, og dermed vanskelig å få godkjent noe innenfor. Ratioen mellom antall forslag og antall plasser i programmet gjør nåløyet ekstremt lite akkurat her.
@@ -161,11 +158,8 @@ Se også gjerne etter hva det spørres etter i CfP. Noen konferanser er tydelige
 
 Protip: Forslag rundt sikkerhet har vært ettertraktet i alle årene jeg var aktiv med JavaZone, og går neppe av moten på det første. Et annet tips, som nevnt over, er erfaringsrapporter eller postmortems der ting ikke har gått som planlagt.
 
-
 <p class="hero"><img src="steve-harvey-KrDsArJuy1A-unsplash.jpg" ></p>
 <p class="image-credit">Photo by Steve Harvey on Unsplash</p>
-
-
 
 ### 14. Ikke vær redd for avanserte tema
 
