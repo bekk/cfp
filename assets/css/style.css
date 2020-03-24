@@ -146,6 +146,11 @@ li {
     margin-bottom: 8px;
 }
 
+ul,
+ol {
+    margin-bottom: 16px;
+}
+
 select,
 button {
     font-size: 1.5rem;
