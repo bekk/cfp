@@ -16,12 +16,13 @@ Så, hvis du er i skogen og trenger noe å fyre opp et bål med, da er tyriroten
 Selv er jeg under middels opptatt av friluftsliv og trær, men langt over gjennomsnittet opptatt av kommunikasjon, og spesielt paralleller og likhetstrekk på kryss og tvers av alt. Ved å lære om nye ting, oppdager jeg fellesnevnere som kan hjelpe meg å si det jeg ønsker å si bedre enn med “vanlige ord”. Det er nettopp derfor språket vårt er fullstappet med sammenligninger og [metaforer](https://snl.no/metafor). Hun “løper som en gaselle” og han “var en løve der han sto og talte til folket”. Vi låner egenskaper fra andre områder for å berike vårt egen kommunikasjon. Akkurat som jeg gjør her med tyriroten.
 
 ## Hvordan finne tyriroten
-Tenk hvor digg det hadde vært å finne en tyrirot av en tittel? En som brant seg fast i mottakeren bevissthet og nektet å slukke. Som gløder like godt for nybegynnere så vel som veteraner på JavaZone? Det er det vi skal prøve å få til.
+
+Tenk hvor digg det hadde vært å finne en tyrirot av en tittel? En som brant seg fast i mottakeren bevissthet og nektet å slukke. Som gløder like godt for nybegynnere så vel som veteraner på JavaZone? Det er det vi skal prøve å få til. Nedenfor har jeg samlet noen gode tips til hvordan du kan lage gode titler, og hvordan du kan gi tekstene dine en ekstra piff. 
 
 ## Tre tips til å lage gode titler
-- Bruk god tid – noen ganger kommer tittelen først, andre ganger til slutt
-- Hvis du står fast, prøv flere ulike tilnærminger (se liste nedenfor med ulike typer titler)
-- Tittelen bør gjenspeile noe som føles ekte for deg. En kul tittel hjelper deg lite hvis fremføringen går i en annen tematisk retning.
+- Bruk god tid – noen ganger kommer tittelen først, andre ganger til slutt.
+- Står du bom fast? Prøv flere ulike tilnærminger (se liste nedenfor med ulike typer titler).
+- Tittelen bør gjenspeile noe som føles ekte for deg. En kul tittel hjelper deg lite hvis fremføringen går i en annen tematisk retning. 
 
 ## En tittel er ikke bare en tittel
 
