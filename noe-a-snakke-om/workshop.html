@@ -1,0 +1,244 @@
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+    <meta name="description" content="cfp : Et sted å samle resurser som hjelper en med å lage et CFP">
+
+    <meta name="generator" content="Jekyll v3.8.5">
+    <meta property="og:title" content="cfp">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="Et sted å samle resurser som hjelper en med å lage et CFP">
+    <meta property="og:description" content="Et sted å samle resurser som hjelper en med å lage et CFP">
+    <link rel="canonical" href="https://bekk.github.io/cfp/">
+    <meta property="og:url" content="https://bekk.github.io/cfp/">
+    <meta property="og:site_name" content="cfp">
+    <script type="application/ld+json">
+        {
+            "headline": "cfp",
+            "@type": "WebSite",
+            "url": "https://bekk.github.io/cfp/",
+            "name": "cfp",
+            "description": "Et sted å samle resurser som hjelper en med å lage et CFP",
+            "@context": "https://schema.org"
+        }
+    </script>
+    <!-- End Jekyll SEO tag -->
+    <link rel="stylesheet" href="/cfp/assets/css/style.css">
+    <!-- <link rel="stylesheet" href="../../assets/css/style.css"> -->
+    <style>
+        select {
+            width: 100%;
+        }
+
+
+
+
+
+        .arena,
+        .tips {
+            margin-top: 32px;
+            border: 1px solid var(--hvit);
+            padding: 10px;
+        }
+
+        .arena h3,
+        .tips h3 {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .arena p,
+        .tips p {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .link {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header><a href="/cfp/"> <span class="rocket">🚀</span>Et ønske om å dele </a></header>
+    <div class="container">
+
+        <div id="workshop" class="center">
+            <div>
+                <h2>Finn noe å snakke om</h2>
+                <p>
+                    Ved å se på mulighetene i nedtrekkslitene under vil du få inspirasjon til noe du kan snakke om.
+                    Velg gjerne et valg under "tema" og skriv ned de tenke du får på et ark.
+                    Du kan gjøre det samme for "format" og se hvilke tanker de trigger. Det kan også være nyttig å se på
+                    "Steder du kan dele" for å se om det kan gi inspirasjon til å finne noe å snakke om. Helt nederst er
+                    det lagt til noen tips. Kom gjerne med tilbakemeldinger og forslag til nye tips som kan legges til.
+                    Dette kan også være inspirasjon knyttet til tema eller formatet!
+                </p>
+
+                <label>Jeg ønsker å dele <br />
+                    <select id="topic" onchange="update()">
+                        <option value="none" selected> --velg tema-- </option>
+
+                    </select>
+                </label>
+                <label><br />som<br />
+                    <select id="format" onchange="update()">
+                        <option value="none" selected>--format--</option>
+
+                    </select>
+                </label>
+                <p>
+                    Valg av tema påvirker hvilke tips, men i noen tilfeller også hvilke steder det passer å dele.
+                    Format påvirker hvilke steder det passer å dele og hvilke tips som vises.
+                </p>
+            </div>
+
+            <div>
+                <h2>Steder du kan dele</h2>
+                <div id="arena-container"></div>
+
+
+            </div>
+            <div>
+                <h2>Tips til det du tenker å dele</h2>
+                <div id="tips-container"></div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        const topicSelect = document.getElementById("topic")
+        const formatSelect = document.getElementById("format")
+        const arenas = document.getElementsByClassName("arena")
+        const tips = document.getElementsByClassName("tips")
+        const arenaContainer = document.getElementById("arena-container")
+        const tipsContainer = document.getElementById("tips-container")
+
+        function update() {
+
+            var selectedTopic = topicSelect.options[topicSelect.selectedIndex].value;
+            var selectedFormat = formatSelect.options[formatSelect.selectedIndex].value;
+            if (selectedTopic === "none" && selectedFormat === "none") {
+                selectedTopic = ""
+                selectedFormat = ""
+            }
+            for (var i = 0; i < arenas.length; i++) {
+                var arena = arenas[i];
+                var formatOptions = arena.getAttribute('data-format');
+                var topicOptions = arena.getAttribute('data-topic');
+                if (formatOptions.indexOf(selectedFormat) > -1 || topicOptions.indexOf(selectedTopic) > -1) {
+                    arena.style.display = 'block'
+                } else {
+                    arena.style.display = 'none'
+                }
+            };
+
+            for (var i = 0; i < tips.length; i++) {
+
+                var tip = tips[i];
+                var formatOptions = tip.getAttribute('data-format');
+                var topicOptions = tip.getAttribute('data-topic');
+
+                if (formatOptions.indexOf(selectedFormat) > -1 || topicOptions.indexOf(selectedTopic) > -1) {
+                    tip.style.display = 'block'
+                } else {
+                    tip.style.display = 'none'
+                }
+            };
+        }
+
+
+        function addSelectOption(select, value, name) {
+            var opt = document.createElement('option');
+            opt.appendChild(document.createTextNode(name))
+            opt.value = value
+            select.appendChild(opt)
+        }
+
+        function addTopicSelectOption(topic) {
+            addSelectOption(topicSelect, topic.id, topic.fields.Description)
+        }
+
+        function addFormatSelectOption(format) {
+            addSelectOption(formatSelect, format.id, format.fields.Description)
+        }
+
+
+
+        function populateTopics(topics) {
+            topics.map(topic => addTopicSelectOption(topic))
+        }
+
+        function populateFormat(topics) {
+            topics.map(topic => addFormatSelectOption(topic))
+        }
+
+        function addArena(arena) {
+            var div = document.createElement('div')
+            div.classList.add("arena");
+            div.setAttribute("data-topic", arena.fields.Topic || '')
+            div.setAttribute("data-format", arena.fields.Format || '')
+            div.innerHTML =
+                `<h3>${arena.fields.Title}</h3>
+                <p>${arena.fields.Url ? '<a class="link" href="' + arena.fields.Url+ '">' +arena.fields.Url +'</a>' :
+                    ''}
+                    ${arena.fields.Description}</p>`;
+            arenaContainer.appendChild(div)
+        }
+
+        function populateArena(arenas) {
+            arenas.map(arena => addArena(arena))
+        }
+
+        function addTips(tips) {
+            var div = document.createElement('div')
+            div.classList.add("tips");
+            div.setAttribute("data-topic", tips.fields.Topic || '')
+            div.setAttribute("data-format", tips.fields.Format || '')
+            div.innerHTML =
+                `<h3>${tips.fields.Title}</h3>
+                <p>${tips.fields.Url ? '<a class="link" href="' + tips.fields.Url+ '">' +tips.fields.Url +'</a>' : ''}
+                    ${tips.fields.Description}</p>`;
+            tipsContainer.appendChild(div)
+        }
+
+        function populateTips(tips) {
+            tips.map(tip => addTips(tip))
+        }
+
+        fetch('https://api.airtable.com/v0/apptcQ5YDrneaRlPm/Topic', {
+            method: 'get',
+            headers: new Headers({
+                'Authorization': 'Bearer keyZl2ED1jRXncibg'
+            })
+        }).then((response) => response.json()).then((json) => populateTopics(json.records));
+
+        fetch('https://api.airtable.com/v0/apptcQ5YDrneaRlPm/Format', {
+            method: 'get',
+            headers: new Headers({
+                'Authorization': 'Bearer keyZl2ED1jRXncibg'
+            })
+        }).then((response) => response.json()).then((json) => populateFormat(json.records));
+
+        fetch('https://api.airtable.com/v0/apptcQ5YDrneaRlPm/Arena', {
+            method: 'get',
+            headers: new Headers({
+                'Authorization': 'Bearer keyZl2ED1jRXncibg'
+            })
+        }).then((response) => response.json()).then((json) => populateArena(json.records));
+
+        fetch('https://api.airtable.com/v0/apptcQ5YDrneaRlPm/Tips', {
+            method: 'get',
+            headers: new Headers({
+                'Authorization': 'Bearer keyZl2ED1jRXncibg'
+            })
+        }).then((response) => response.json()).then((json) => populateTips(json.records));
+    </script>
+</body>
+
+</html>
