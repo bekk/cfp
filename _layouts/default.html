@@ -12,20 +12,20 @@
         content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
 
     <meta name="generator" content="Jekyll v3.8.5" />
-    <meta property="og:title" content="cfp" />
+    <meta property="og:title" content="{{ site.title | default: site.github.repository_name }}" />
     <meta property="og:locale" content="en_US" />
-    <meta name="description" content="Et sted å samle resurser som hjelper en med å lage et CFP" />
-    <meta property="og:description" content="Et sted å samle resurser som hjelper en med å lage et CFP" />
+    <meta name="description" content="{{ site.description | default: site.github.project_tagline }}" />
+    <meta property="og:description" content="{{ site.description | default: site.github.project_tagline }}" />
     <link rel="canonical" href="https://bekk.github.io/cfp/" />
     <meta property="og:url" content="https://bekk.github.io/cfp/" />
     <meta property="og:site_name" content="cfp" />
     <script type="application/ld+json">
         {
-            "headline": "cfp",
+            "headline": "{{ site.title | default: site.github.repository_name }}",
             "@type": "WebSite",
             "url": "https://bekk.github.io/cfp/",
             "name": "cfp",
-            "description": "Et sted å samle resurser som hjelper en med å lage et CFP",
+            "description": "{{ site.description | default: site.github.project_tagline }}",
             "@context": "https://schema.org"
         }
     </script>
